@@ -44,7 +44,7 @@ $(document).ready(function () {
             if (s >= 750){
                 $('#crab').addClass("crab");
             }
-            if (s >=600){
+            if (s >=570){
                 $('#name').addClass("noName");
             }else {
                 $('#name').removeClass("noName");
