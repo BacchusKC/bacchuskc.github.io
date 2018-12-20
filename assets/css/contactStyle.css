@@ -1,0 +1,96 @@
+header {
+    background: lightskyblue;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 1px solid lightgray;
+}
+.innerHeader {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    position: relative;
+}
+#head {
+    left: 20px;
+    height: 71px;
+    top: 15px;
+    position: absolute;
+}
+#head:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.nav-up {
+    top: -100px;
+}
+#nav-links {
+    position: absolute;
+    font-family: 'Glegoo', serif;
+    font-size: 20px;
+    right: 10px;
+    background-color: inherit;
+    z-index: 10;
+    color: black;
+    bottom: 30px;
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+.links:hover {
+    text-decoration: none;
+    color: rgba(152, 251, 152, 0.822);
+}
+.activeLink {
+    text-decoration: none;
+    color: gray;
+    cursor: default;
+}
+.activeLink:hover {
+    text-decoration: none;
+    color: gray;
+}
+.transparent {
+    background: transparent!important;
+    border: transparent;
+}
+main {
+    height: 2550px;
+    text-align: center;
+    margin: auto;
+}
+footer { 
+    z-index: 5;
+    height: auto;
+    position: relative;
+    min-height: 150px;
+    background-image: url(../images/grass.jpg);
+    background-repeat: repeat;
+    border-top: 15px solid rgba(165, 42, 42, 0.568); 
+}
+.footerText {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Glegoo', serif;
+}
+.footLinks {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footLinks:hover {
+    text-decoration: none;
+    color: #fcd060;
+}

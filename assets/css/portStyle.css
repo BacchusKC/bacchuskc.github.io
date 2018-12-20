@@ -1,0 +1,265 @@
+header {
+    background: snow;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 1px solid lightgray;
+}
+.innerHeader {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    position: relative;
+}
+#head {
+    left: 20px;
+    height: 71px;
+    top: 15px;
+    position: absolute;
+}
+#head:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.nav-up {
+    top: -100px;
+}
+#nav-links {
+    position: absolute;
+    font-family: 'Glegoo', serif;
+    font-size: 20px;
+    right: 10px;
+    background-color: inherit;
+    z-index: 10;
+    color: black;
+    bottom: 30px;
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+.links:hover {
+    text-decoration: none;
+    color: lightskyblue;
+}
+.activeLink {
+    text-decoration: none;
+    color: gray;
+    cursor: default;
+}
+.activeLink:hover {
+    text-decoration: none;
+    color: gray;
+}
+.transparent {
+    background: transparent!important;
+    border: transparent;
+}
+main {
+    height: 2450px;
+    background-color: snow;
+}
+.top {
+    background-image: url(../images/snow.png);
+    height: 900px;
+    background-color: #bdebff;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 600px;
+    position: relative;
+    z-index: 1;
+}
+#banner {
+    position: fixed;
+    top: 175px;
+    left: 0;
+    right: 0;
+    font-family: 'Glegoo', serif;
+    font-size: 100px;
+    font-weight: 620;
+    letter-spacing: 5px;
+    /* color: #5162f9; */
+    color: lightskyblue;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    z-index: 1;
+}
+.mountPic {
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; 
+    bottom: 0px;
+    z-index: 2;
+    position: absolute;
+}
+.mid {
+    min-height: 1400px;
+    background-color: snow;
+    position: relative;
+    height: auto;
+    z-index: 2;
+}
+.projs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 960px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;   
+}
+.projCards {
+    border: 1px solid lightskyblue;
+    padding: 0;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 404px;
+    background-image: url(../images/snowBack.jpg);
+    background-repeat: repeat;
+    background-size: 600px;
+    box-shadow: 10px 10px 5px grey;
+}
+.projCards:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.temp:hover {
+    cursor: not-allowed!important;
+    opacity: 1!important;
+}
+.projImg {
+    width:100%;
+    padding: 0 15px;
+}
+hr {
+    background-color: lightskyblue;
+    height: 1px;
+}
+h3 {
+    color: snow;
+    font-family: 'Glegoo', serif;
+    text-shadow:
+    -1px -1px 0 grey,
+    1px -1px 0 grey,
+    -1px 1px 0 grey,
+    1px 1px 0 grey;
+}
+h4 {
+    color: black;
+    font-family: 'Glegoo', serif;
+}    
+footer { 
+    z-index: 5;
+    height: auto;
+    position: relative;
+    min-height: 150px;
+    border-top: 15px solid lightcyan;
+    background-color: lightskyblue;
+}
+.footerText {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Glegoo', serif;
+}
+.footLinks {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footLinks:hover {
+    text-decoration: none;
+    color: #fcd060;
+}
+@media only screen and (max-width: 400px) {
+    #nav-links { 
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        text-align: center;
+    }
+    header {
+        height: 120px;
+    }
+    #head {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .nav-up {
+        top: -120px;
+    }
+    .sand {
+        font-size: 80px;
+    }
+    #banner {
+        font-size: 80px;
+    }
+}
+@media only screen and (min-width:384px) and (max-width: 463px) {
+    #banner {
+        font-size: 80px;
+    }
+}
+@media only screen and (max-width: 383px) {
+    #banner {
+        font-size: 60px;
+    }
+}
+@media only screen and (min-width:390px) and (max-width: 440px) {
+    .projCards {
+        width: 350px;
+    }
+}
+@media only screen and (min-width:340px) and (max-width: 389.999px) {
+    .projCards {
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 339.999px) {
+    .projCards {
+        width: 250px;
+    }
+}            
+@media only screen and (max-width: 807px) {
+    .mid {
+      min-height: 2530px;
+    }
+    main {
+        height: 3580px;
+    }
+    .projs{
+        top: 30px;
+    }
+}
