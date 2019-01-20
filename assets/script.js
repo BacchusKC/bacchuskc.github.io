@@ -51,18 +51,10 @@ $(document).ready(function () {
             }
     });
 });
-//make name vanish
-// $(document).ready(function () {
-//     $(window).scroll(function () {
-//         var s = $(this).scroll
-//     })
-// });
-//octo sign change
 $(document).ready(function () {
     var images = ["'assets/images/js.png'", "'assets/images/css.png'", "'assets/images/ajax.png'", "'assets/images/jquery.png'", 
         "'assets/images/mongo.png'", "'assets/images/node.png'", "'assets/images/react.png'", "'assets/images/sql.png'", "'assets/images/html.png'"];
     var pic = 0;
-    // var showImage;
 
     function displayImage () {
         $("#octDiv").html("<img id='oct' src=" + images[pic] + ">");
@@ -75,8 +67,6 @@ $(document).ready(function () {
         setInterval(displayImage, 1500);
         
     }
-    // function startOct() {
-    //     showImage = setInterval(nextImage, 2000);
-    // }
+
     nextImage();
 });            
