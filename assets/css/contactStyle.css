@@ -201,7 +201,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-size: 600px; */
+    background-size: cover;
     position: relative;
     z-index: 1;
 }
@@ -247,6 +247,9 @@ main {
     }
     #mid {
        height: 1200px;
+    }
+    #contactBox {
+        height:660px;
     }
 }
 @media only screen and (max-width: 327px) {
