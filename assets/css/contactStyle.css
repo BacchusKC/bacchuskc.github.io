@@ -1,5 +1,141 @@
+.activeLink {
+    text-decoration: none;
+    color: yellow;
+    cursor: default;
+}
+.activeLink:hover {
+    text-decoration: none;
+    color: yellow;
+}
+#banner {
+    position: fixed;
+    top: 175px;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 620;
+    letter-spacing: 5px;
+    color: lightyellow;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    z-index: 1;
+}
+.btn {
+    background-color: white;
+    color: rgb(74,90,116);
+    font-size: 20px;
+    border: 2px solid white;
+}
+.btn:hover {
+    background-color: rgb(74,90,116);
+    color: lightyellow;
+}
+.card-body {
+    text-align: left;
+    color: lightyellow;
+    font-size: 20px;
+    padding: 20px;
+}
+.card-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    padding-top: 8px;
+    color: lightyellow;
+    background-color: rgb(65, 79, 102);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#cityPic {
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; 
+    bottom: 0px;
+    z-index: 2;
+    position: absolute;
+}
+#contactBox {
+    max-width: 800px;
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    background-color: rgb(74,90,116);
+    z-index: 3;
+    margin-top: 60px;
+    border-radius: 4px;
+    border: 3px solid lightgrey; 
+    box-shadow: 10px 10px 5px grey;  
+}
+.contactLinks {
+    width: 164px;
+    max-width: 164px;
+    background-image: url(../images/background.png);
+    height: 164px;
+    margin: 10px auto;
+    border-radius: 4px;
+    border: 3px solid lightgrey; 
+    box-shadow: 10px 10px 5px grey;  
+}
+.contactLinks:hover {
+    cursor: pointer;
+}
+.footLinks {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footLinks:hover {
+    text-decoration: none;
+    color: #fcd060;
+}
+footer { 
+    z-index: 5;
+    height: auto;
+    position: relative;
+    min-height: 150px;
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+    border-top: 15px solid lightyellow; 
+}
+.footerText {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Glegoo', serif;
+}
+#head {
+    left: 20px;
+    height: 71px;
+    top: 15px;
+    position: absolute;
+}
+#head:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
 header {
-    background: lightskyblue;
+    background: #313131;
     height: 100px;
     position: fixed;
     top: 0;
@@ -15,82 +151,110 @@ header {
     height: 100px;
     position: relative;
 }
-#head {
-    left: 20px;
-    height: 71px;
-    top: 15px;
-    position: absolute;
+#linkBox {
+    max-width: 850px;
+    margin: auto;
+
 }
-#head:hover {
-    cursor: pointer;
-    opacity: 0.8;
+.links {
+    text-decoration: none;
+    color: lightyellow;
+}
+.links:hover {
+    text-decoration: none;
+    color: #fcd060;
+}
+main {
+    height: 1950px;
+    text-align: center;
+    margin: auto;
+    background-color: #313131
+}
+#mid {
+    min-height: 800px;
+    background-color: #313131;
+    position: relative;
+    height: auto;
+    z-index: 2;
+    padding-top: 60px;
 }
 .nav-up {
     top: -100px;
 }
 #nav-links {
     position: absolute;
-    font-family: 'Glegoo', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     right: 10px;
     background-color: inherit;
     z-index: 10;
-    color: black;
+    color: lightyellow;
     bottom: 30px;
-}
-.links {
-    text-decoration: none;
-    color: black;
-}
-.links:hover {
-    text-decoration: none;
-    color: rgba(152, 251, 152, 0.822);
-}
-.activeLink {
-    text-decoration: none;
-    color: gray;
-    cursor: default;
-}
-.activeLink:hover {
-    text-decoration: none;
-    color: gray;
 }
 .transparent {
     background: transparent!important;
     border: transparent;
 }
-main {
-    height: 2550px;
-    text-align: center;
-    margin: auto;
-}
-footer { 
-    z-index: 5;
-    height: auto;
+#top {
+    background-image: url(../images/stars.jpg);
+    height: 900px;
+    background-color: #bdebff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: 600px; */
     position: relative;
-    min-height: 150px;
-    background-image: url(../images/grass.jpg);
-    background-repeat: repeat;
-    border-top: 15px solid rgba(165, 42, 42, 0.568); 
+    z-index: 1;
 }
-.footerText {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 35px;
-    font-size: 20px;
-    color: #ffffff;
-    font-family: 'Glegoo', serif;
+@media only screen and (max-width: 400px) {
+    #nav-links { 
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        text-align: center;
+    }
+    header {
+        height: 120px;
+    }
+    #head {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .nav-up {
+        top: -120px;
+    }
+    #banner {
+        font-size: 80px;
+    }
 }
-.footLinks {
-    text-decoration: none;
-    color: #ffffff;
+@media only screen and (min-width:384px) and (max-width: 463px) {
+    #banner {
+        font-size: 80px;
+    }
 }
-.footLinks:hover {
-    text-decoration: none;
-    color: #fcd060;
+@media only screen and (max-width: 383px) {
+    #banner {
+        font-size: 60px;
+    }
+}
+@media only screen and (min-width: 328px) and (max-width: 655px) {
+    main {
+        height: 2150px;
+    }
+    #mid {
+       height: 1200px;
+    }
+}
+@media only screen and (max-width: 327px) {
+    main {
+        height: 2450px;
+    }
+    #mid {
+        height: 1500px;
+    }
 }

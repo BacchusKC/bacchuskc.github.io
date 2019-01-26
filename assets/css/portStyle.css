@@ -1,51 +1,3 @@
-header {
-    background: snow;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    transition: top 0.5s ease-in-out;
-    width: 100%;
-    z-index: 3;
-    border-bottom: 1px solid lightgray;
-}
-.innerHeader {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    height: 100px;
-    position: relative;
-}
-#head {
-    left: 20px;
-    height: 71px;
-    top: 15px;
-    position: absolute;
-}
-#head:hover {
-    cursor: pointer;
-    opacity: 0.8;
-}
-.nav-up {
-    top: -100px;
-}
-#nav-links {
-    position: absolute;
-    font-family: 'Glegoo', serif;
-    font-size: 20px;
-    right: 10px;
-    background-color: inherit;
-    z-index: 10;
-    color: black;
-    bottom: 30px;
-}
-.links {
-    text-decoration: none;
-    color: black;
-}
-.links:hover {
-    text-decoration: none;
-    color: lightskyblue;
-}
 .activeLink {
     text-decoration: none;
     color: gray;
@@ -54,25 +6,6 @@ header {
 .activeLink:hover {
     text-decoration: none;
     color: gray;
-}
-.transparent {
-    background: transparent!important;
-    border: transparent;
-}
-main {
-    height: 2450px;
-    background-color: snow;
-}
-.top {
-    background-image: url(../images/snow.png);
-    height: 900px;
-    background-color: #bdebff;
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: 600px;
-    position: relative;
-    z-index: 1;
 }
 #banner {
     position: fixed;
@@ -96,79 +29,40 @@ main {
     padding: 20px;
     z-index: 1;
 }
-.mountPic {
-    background-size: 100%;
-    width: 100%;
-    height: auto;
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0; 
-    bottom: 0px;
-    z-index: 2;
-    position: absolute;
-}
-.mid {
-    min-height: 1400px;
-    background-color: snow;
-    position: relative;
-    height: auto;
-    z-index: 2;
-}
-.projs {
-    position: absolute;
-    left: 0;
-    right: 0;
-    max-width: 960px;
-    top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;   
-}
-.projCards {
-    border: 1px solid lightskyblue;
-    padding: 0;
-    margin-top: 50px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 404px;
+.btn-primary {
     background-image: url(../images/snowBack.jpg);
     background-repeat: repeat;
     background-size: 600px;
-    box-shadow: 10px 10px 5px grey;
+    color: black;
+    float: right;
+    margin: 0 5px;
 }
-.projCards:hover {
-    cursor: pointer;
-    opacity: 0.8;
-}
-.temp:hover {
-    cursor: not-allowed!important;
-    opacity: 1!important;
-}
-.projImg {
-    width:100%;
-    padding: 0 15px;
-}
-hr {
-    background-color: lightskyblue;
-    height: 1px;
-}
-h3 {
+.card-header {
+    background-image: url(../images/snowBack.jpg);
+    background-repeat: repeat;
+    background-size: 600px;
     color: snow;
     font-family: 'Glegoo', serif;
-    text-shadow:
-    -1px -1px 0 grey,
-    1px -1px 0 grey,
-    -1px 1px 0 grey,
-    1px 1px 0 grey;
+    text-shadow: -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey, 1px 1px 0 grey;
 }
-h4 {
+.card-text {
     color: black;
     font-family: 'Glegoo', serif;
-}    
+    font-size: 18px;
+    line-height: 30px;
+}
+.close {
+    color: #4e4e4e!important;
+    position: absolute;
+    right: 8px;
+    font-size: 28px;
+    font-weight: bold;
+} 
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 footer { 
     z-index: 5;
     height: auto;
@@ -197,6 +91,168 @@ footer {
 .footLinks:hover {
     text-decoration: none;
     color: #fcd060;
+}
+h3 {
+    color: snow;
+    font-family: 'Glegoo', serif;
+    text-shadow:
+    -1px -1px 0 grey,
+    1px -1px 0 grey,
+    -1px 1px 0 grey,
+    1px 1px 0 grey;
+}
+h4 {
+    color: black;
+    font-family: 'Glegoo', serif;
+    padding: 0 10px;
+}
+#head {
+    left: 20px;
+    height: 71px;
+    top: 15px;
+    position: absolute;
+}
+#head:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+header {
+    background: snow;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 1px solid lightgray;
+}
+hr {
+    background-color: lightskyblue;
+    height: 1px;
+}
+.innerHeader {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    position: relative;
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+.links:hover {
+    text-decoration: none;
+    color: lightskyblue;
+}
+main {
+    height: 2450px;
+    background-color: snow;
+}
+.mid {
+    min-height: 1400px;
+    background-color: snow;
+    position: relative;
+    height: auto;
+    z-index: 2;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(255,255,255,0.7);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 5px solid lightskyblue;
+    width: 90%;
+    max-width: 600px;
+}
+.mountPic {
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; 
+    bottom: 0px;
+    z-index: 2;
+    position: absolute;
+}
+.nav-up {
+    top: -100px;
+}
+#nav-links {
+    position: absolute;
+    font-family: 'Glegoo', serif;
+    font-size: 20px;
+    right: 10px;
+    background-color: inherit;
+    z-index: 10;
+    color: black;
+    bottom: 30px;
+}
+.projs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 960px;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;   
+}
+.projCards {
+    border: 1px solid lightskyblue;
+    padding: 0;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 404px;
+    background-image: url(../images/snowBack.jpg);
+    background-repeat: repeat;
+    background-size: 600px;
+    box-shadow: 10px 10px 5px grey;
+}
+.projCards:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.projImg {
+    width:100%;
+    padding: 0 15px;
+}
+.transparent {
+    background: transparent!important;
+    border: transparent;
+}
+.top {
+    background-image: url(../images/snow.png);
+    height: 900px;
+    background-color: #bdebff;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 600px;
+    position: relative;
+    z-index: 1;
+}
+.temp:hover {
+    cursor: not-allowed!important;
+    opacity: 1!important;
 }
 @media only screen and (max-width: 400px) {
     #nav-links { 
