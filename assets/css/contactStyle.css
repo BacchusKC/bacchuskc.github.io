@@ -168,7 +168,7 @@ main {
     height: 1950px;
     text-align: center;
     margin: auto;
-    background-color: #313131
+    background-color: #313131;
 }
 #mid {
     min-height: 800px;
@@ -198,7 +198,6 @@ main {
 #top {
     background-image: url(../images/stars.jpg);
     height: 900px;
-    background-color: #bdebff;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
