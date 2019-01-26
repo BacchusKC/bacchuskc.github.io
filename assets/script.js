@@ -109,20 +109,49 @@ $(document).ready(function () {
                 site: "https://bacchuskc.github.io/trainScheduler/"
             },
         ]
-        $("#myModal").css("display" ,"block");
+        $("#myModal").css("display", "block");
         $(".card-header").html("<span class='close'>&times;</span>");
-        $(".card-header").append("<h2 id='cardTitle'>"+projects[arrayItem].name+"</h2>");
-        $(".card-body").html("<p class='card-text'>"+projects[arrayItem].body+"</p>");
-        $(".card-body").append("<a href='"+projects[arrayItem].site+"' target='_blank' class='btn btn-primary'>Deployed Site</a>");
-        $(".card-body").append("<a href='"+projects[arrayItem].code+"' target='_blank' class='btn btn-primary'>Github Code</a>");
+        $(".card-header").append("<h2 id='cardTitle'>" + projects[arrayItem].name + "</h2>");
+        $(".card-body").html("<p class='card-text'>" + projects[arrayItem].body + "</p>");
+        $(".card-body").append("<a href='" + projects[arrayItem].site + "' target='_blank' class='btn btn-primary'>Deployed Site</a>");
+        $(".card-body").append("<a href='" + projects[arrayItem].code + "' target='_blank' class='btn btn-primary'>Github Code</a>");
     });
     $(document).on('click', '.close', function () {
-        $("#myModal").css("display" ,"none");
+        $("#myModal").css("display", "none");
     });
     var modal = document.getElementById('myModal');
-    document.onclick = function(event) {
+    document.onclick = function (event) {
         if (event.target == modal) {
-          modal.style.display = "none";
+            modal.style.display = "none";
         }
     }
+    var config = {
+        apiKey: "AIzaSyDthWXCl-tvwhxK5C59SoAaJyJU0cWDk0I",
+        authDomain: "contact-form-92854.firebaseapp.com",
+        databaseURL: "https://contact-form-92854.firebaseio.com",
+        projectId: "contact-form-92854",
+        storageBucket: "contact-form-92854.appspot.com",
+        messagingSenderId: "1020685898778"
+    };
+    firebase.initializeApp(config);
+    var database = firebase.database();
+
+    $("#sendContact").on('click', function () {
+        event.preventDefault();
+        var name = $("#name").val().trim();
+        var email = $("#email").val().trim();
+        var comment = $("#comment").val().trim();
+        var newContact = {
+            name: name,
+            email: email,
+            comment: comment
+        };
+
+        database.ref().push(newContact);
+
+        $("#name").val("");
+        $("#email").val("");
+        $("#comment").val("Thanks, I will get back to you soon!");
+
+    });
 });            
