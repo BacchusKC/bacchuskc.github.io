@@ -4,6 +4,7 @@ var lastScrollTop = 0;
 var delta = 101;
 var navbarHeight = $('header').outerHeight();
 
+
 $(window).scroll(function (event) {
     didScroll = true;
 });
@@ -38,6 +39,7 @@ function hasScrolled() {
 };
 //crab movement and name vanish
 $(document).ready(function () {
+    $(document).scrollTop(0);
     var crabPos = $('#crab');
 
     $(window).scroll(function () {
