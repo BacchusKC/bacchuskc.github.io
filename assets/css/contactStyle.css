@@ -246,9 +246,6 @@ main {
     }
 }
 @media only screen and (min-width: 328px) and (max-width: 655px) {
-    main {
-        height: 2150px;
-    }
     #mid {
        height: 1200px;
     }
@@ -258,10 +255,18 @@ main {
 }
 @media only screen and (max-width: 327px) {
     main {
-        height: 2450px;
+        height: 2150px;
     }
     #mid {
-        height: 1500px;
+        height: 1100px;
+    }
+    #top {
+        height: 530px;
+        background-size: 920px;
+        background-position: top;
+    }
+    #contactBox {
+        height:660px;
     }
 }
 @media only screen and (min-width: 420px) and (max-width: 526px) {
@@ -270,6 +275,9 @@ main {
         background-size: 1120px;
         background-position: top;
     }
+    main {
+        height: 1980px;
+    }
 }
 @media only screen and (min-width: 384px) and (max-width: 419px) {
     #top {
@@ -277,13 +285,22 @@ main {
         background-size: 1020px;
         background-position: top;
     }
+    main {
+        height: 1880px;
+    }
 }
-@media only screen and (max-width: 383px) {
+@media only screen and (min-width: 328px) and (max-width: 383px) {
     #top {
         height: 530px;
         background-size: 920px;
         background-position: top;
     }
+    main {
+        height: 1780px;
+    }
 }
-
-
+@media only screen and (min-width: 527px) and (max-width: 655px) {
+    main {
+        height: 2150px;
+    }
+}
