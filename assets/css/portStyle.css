@@ -16,7 +16,6 @@
     font-size: 100px;
     font-weight: 620;
     letter-spacing: 5px;
-    /* color: #5162f9; */
     color: lightskyblue;
     text-shadow:
     -1px -1px 0 #000,
@@ -28,6 +27,7 @@
     margin-right: auto;
     padding: 20px;
     z-index: 1;
+    text-shadow: 5px 5px 3px snow;
 }
 .btn-primary {
     background-image: url(../images/snowBack.jpg);
