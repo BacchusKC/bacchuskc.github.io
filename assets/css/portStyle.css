@@ -235,6 +235,9 @@ main {
     width:100%;
     padding: 0 15px;
 }
+.projText {
+    line-height: 30px;
+}
 .transparent {
     background: transparent!important;
     border: transparent;
