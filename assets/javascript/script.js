@@ -76,7 +76,7 @@ $(document).ready(function () {
         var projects = [
             {
                 name: "Siri Bot",
-                body: "A node.js script that uses APIs and NPM packages to return data based on input from the user. Then the data is nicely originized with select data presented to the user and also written to a log.txt file. Since this site can't be deplyed, it links to the readme with a gif showing it in use.",
+                body: "A node.js script that uses APIs and NPM packages to return data based on input from the user. Then the data is nicely originized with select data presented to the user and also written to a log.txt file. Since this site can't be deployed, it links to the readme with a gif showing it in use.",
                 code: "https://github.com/BacchusKC/liri-node-app",
                 site: "https://github.com/BacchusKC/liri-node-app/blob/master/README.md"
             },
