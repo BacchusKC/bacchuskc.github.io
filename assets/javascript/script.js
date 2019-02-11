@@ -75,6 +75,12 @@ $(document).ready(function () {
         var arrayItem = (this.id);
         var projects = [
             {
+                name: "Siri Bot",
+                body: "A node.js script that uses APIs and NPM packages to return data based on input from the user. Then the data is nicely originized with select data presented to the user and also written to a log.txt file. Since this site can't be deplyed, it links to the readme with a gif showing it in use.",
+                code: "https://github.com/BacchusKC/liri-node-app",
+                site: "https://github.com/BacchusKC/liri-node-app/blob/master/README.md"
+            },
+            {
                 name: "What to Watch",
                 body: "My first coding group project, using React, Bootstrap, Javascript and APIs. We designed a site that users can use to find things they may want to watch. Parts of the code that I wrote were all of search.js, most of home.js, some of index.html and the main and sub topic dropdowns in react-ui-nav.js (lines 267-323).",
                 code: "https://github.com/csinlasath/Project-1",
@@ -109,6 +115,12 @@ $(document).ready(function () {
                 body: "An app that was my first with Firebase. Input data that is stored on a database that will reload every minute to update the next train arrival time and minutes left until then.",
                 code: "https://github.com/BacchusKC/trainScheduler",
                 site: "https://bacchuskc.github.io/trainScheduler/"
+            },
+            {
+                name: "Placeholder",
+                body: "Placeholder",
+                code: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                site: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             },
         ]
         $("#myModal").css("display", "block");

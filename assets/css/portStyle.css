@@ -146,11 +146,11 @@ hr {
     color: lightskyblue;
 }
 main {
-    height: 2450px;
+    height: 2880px;
     background-color: snow;
 }
 .mid {
-    min-height: 1400px;
+    min-height: 1830px;
     background-color: snow;
     position: relative;
     height: auto;
@@ -300,23 +300,50 @@ main {
     .projCards {
         width: 350px;
     }
+    .mid {
+        min-height: 3408px;
+      }
+      main {
+          height: 4360px;
+      }
+      .projs{
+          top: 30px;
+      }
 }
 @media only screen and (min-width:340px) and (max-width: 389.999px) {
     .projCards {
         width: 300px;
+    }
+    .mid {
+        min-height: 3284px;
+    }
+    main {
+        height: 4234px;
+    }
+    .projs{
+        top: 30px;
     }
 }
 @media only screen and (max-width: 339.999px) {
     .projCards {
         width: 250px;
     }
-}            
-@media only screen and (max-width: 807px) {
     .mid {
-      min-height: 2530px;
+        min-height: 3220px;
     }
     main {
-        height: 3580px;
+        height: 4170px;
+    }
+    .projs{
+        top: 30px;
+    }
+}            
+@media only screen and (min-width: 441px) and (max-width: 807px) {
+    .mid {
+      min-height: 3560px;
+    }
+    main {
+        height: 4540px;
     }
     .projs{
         top: 30px;
