@@ -75,6 +75,12 @@ $(document).ready(function () {
         var arrayItem = (this.id);
         var projects = [
             {
+                name: "Shopping Manager",
+                body: "Node based apps that work with MySQL. One app for customers to see stock and buy, one app for managers to see inventory, add new inventory and add new items, and an app for supervisors to see sales and real time profits, and add and delete departments.",
+                code: "https://github.com/BacchusKC/bamazon",
+                site: "https://github.com/BacchusKC/bamazon/blob/master/README.md"
+            },
+            {
                 name: "Siri Bot",
                 body: "A node.js script that uses APIs and NPM packages to return data based on input from the user. Then the data is nicely originized with select data presented to the user and also written to a log.txt file. Since this site can't be deployed, it links to the readme with a gif showing it in use.",
                 code: "https://github.com/BacchusKC/liri-node-app",
@@ -115,12 +121,6 @@ $(document).ready(function () {
                 body: "An app that was my first with Firebase. Input data that is stored on a database that will reload every minute to update the next train arrival time and minutes left until then.",
                 code: "https://github.com/BacchusKC/trainScheduler",
                 site: "https://bacchuskc.github.io/trainScheduler/"
-            },
-            {
-                name: "Placeholder",
-                body: "Placeholder",
-                code: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                site: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             },
         ]
         $("#myModal").css("display", "block");
