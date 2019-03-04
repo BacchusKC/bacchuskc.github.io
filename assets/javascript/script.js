@@ -75,6 +75,12 @@ $(document).ready(function () {
         var arrayItem = (this.id);
         var projects = [
             {
+                name: "Friend Finder",
+                body: "An Express app that uses api, routes and ajax calls to navigate the user, send and receive data and is deployed on heroku.",
+                code: "https://github.com/BacchusKC/friendFinder",
+                site: "https://friend-match-finder.herokuapp.com/"
+            },
+            {
                 name: "Shopping Manager",
                 body: "Node based apps that work with MySQL. One app for customers to see stock and buy, one app for managers to see inventory, add new inventory and add new items, and an app for supervisors to see sales and real time profits, and add and delete departments.",
                 code: "https://github.com/BacchusKC/bamazon",
@@ -122,6 +128,12 @@ $(document).ready(function () {
                 code: "https://github.com/BacchusKC/trainScheduler",
                 site: "https://bacchuskc.github.io/trainScheduler/"
             },
+            {
+                name: "Under Construction",
+                body: "Blah, Blah, Blah",
+                code: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                site: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
         ]
         $("#myModal").css("display", "block");
         $(".card-header").html("<span class='close'>&times;</span>");

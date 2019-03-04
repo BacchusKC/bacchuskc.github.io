@@ -146,11 +146,11 @@ hr {
     color: lightskyblue;
 }
 main {
-    height: 2880px;
+    height: 3307.25px;
     background-color: snow;
 }
 .mid {
-    min-height: 1830px;
+    min-height: 2257.25px;
     background-color: snow;
     position: relative;
     height: auto;
@@ -296,15 +296,26 @@ main {
         font-size: 60px;
     }
 }
+@media only screen and (min-width: 441px) and (max-width: 807px) {
+    .mid {
+      min-height: 4414.50px;
+    }
+    main {
+        height: 5394.50px;
+    }
+    .projs{
+        top: 30px;
+    }
+}
 @media only screen and (min-width:390px) and (max-width: 440px) {
     .projCards {
         width: 350px;
     }
     .mid {
-        min-height: 3408px;
+        min-height: 4137.4px;
       }
       main {
-          height: 4360px;
+          height: 5089.4px;
       }
       .projs{
           top: 30px;
@@ -315,10 +326,10 @@ main {
         width: 300px;
     }
     .mid {
-        min-height: 3284px;
+        min-height: 4008.4px;
     }
     main {
-        height: 4234px;
+        height: 4958.4px;
     }
     .projs{
         top: 30px;
@@ -329,23 +340,12 @@ main {
         width: 250px;
     }
     .mid {
-        min-height: 3220px;
+        min-height: 3879.4px;
     }
     main {
-        height: 4170px;
+        height: 4829.4px;
     }
     .projs{
         top: 30px;
     }
 }            
-@media only screen and (min-width: 441px) and (max-width: 807px) {
-    .mid {
-      min-height: 3560px;
-    }
-    main {
-        height: 4540px;
-    }
-    .projs{
-        top: 30px;
-    }
-}
