@@ -75,6 +75,12 @@ $(document).ready(function () {
         var arrayItem = (this.id);
         var projects = [
             {
+                name: "Burger Maker",
+                body: "Create your burger, and eat it! Showcasing the use of Express, Express-Handlebars, MySQL, Heroku deployment, Model-View-Controller and JawsDB.",
+                code: "https://github.com/BacchusKC/burgerMaker",
+                site: "https://burger-smasher.herokuapp.com/"
+            },
+            {
                 name: "Friend Finder",
                 body: "An Express app that uses api, routes and ajax calls to navigate the user, send and receive data and is deployed on heroku.",
                 code: "https://github.com/BacchusKC/friendFinder",
@@ -127,12 +133,6 @@ $(document).ready(function () {
                 body: "An app that was my first with Firebase. Input data that is stored on a database that will reload every minute to update the next train arrival time and minutes left until then.",
                 code: "https://github.com/BacchusKC/trainScheduler",
                 site: "https://bacchuskc.github.io/trainScheduler/"
-            },
-            {
-                name: "Under Construction",
-                body: "Blah, Blah, Blah",
-                code: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                site: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             }
         ]
         $("#myModal").css("display", "block");
