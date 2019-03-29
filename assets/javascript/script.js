@@ -75,6 +75,12 @@ $(document).ready(function () {
         var arrayItem = (this.id);
         var projects = [
             {
+                name: "Project Bacchus",
+                body: "A project dedicated to my late dog, Bacchus. An all-in-one app for storing everything about your pets, sharing records and monitoring others that may be in charge of your pet. A gorup project made with React & Next.js with Firebase Auth.",
+                code: "https://github.com/csinlasath/CMTT-Project-2",
+                site: "https://cmatt-project-2.herokuapp.com/"
+            },
+            {
                 name: "Burger Maker",
                 body: "Create your burger, and eat it! Showcasing the use of Express, Express-Handlebars, MySQL, Heroku deployment, Model-View-Controller and JawsDB.",
                 code: "https://github.com/BacchusKC/burgerMaker",
@@ -133,6 +139,12 @@ $(document).ready(function () {
                 body: "An app that was my first with Firebase. Input data that is stored on a database that will reload every minute to update the next train arrival time and minutes left until then.",
                 code: "https://github.com/BacchusKC/trainScheduler",
                 site: "https://bacchuskc.github.io/trainScheduler/"
+            },
+            {
+                name: "Under Construction",
+                body: "Placeholder Text, try the links!",
+                code: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                site: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             }
         ]
         $("#myModal").css("display", "block");

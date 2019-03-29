@@ -146,11 +146,11 @@ hr {
     color: lightskyblue;
 }
 main {
-    height: 3307.25px;
+    height: 3737.25px;
     background-color: snow;
 }
 .mid {
-    min-height: 2257.25px;
+    min-height: 2687.25px;
     background-color: snow;
     position: relative;
     height: auto;
@@ -298,10 +298,10 @@ main {
 }
 @media only screen and (min-width: 441px) and (max-width: 807px) {
     .mid {
-      min-height: 4414.50px;
+      min-height: 5274.50px;
     }
     main {
-        height: 5394.50px;
+        height: 6254.50px;
     }
     .projs{
         top: 30px;
@@ -312,10 +312,10 @@ main {
         width: 350px;
     }
     .mid {
-        min-height: 4137.4px;
+        min-height: 4945.4px;
       }
       main {
-          height: 5089.4px;
+          height: 5897.4px;
       }
       .projs{
           top: 30px;
@@ -326,10 +326,10 @@ main {
         width: 300px;
     }
     .mid {
-        min-height: 4008.4px;
+        min-height: 4772.4px;
     }
     main {
-        height: 4958.4px;
+        height: 5722.4px;
     }
     .projs{
         top: 30px;
@@ -340,10 +340,10 @@ main {
         width: 250px;
     }
     .mid {
-        min-height: 3879.4px;
+        min-height: 4659.4px;
     }
     main {
-        height: 4829.4px;
+        height: 5609.4px;
     }
     .projs{
         top: 30px;
