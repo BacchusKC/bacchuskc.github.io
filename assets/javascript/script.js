@@ -81,6 +81,12 @@ $(document).ready(function () {
                 site: "https://cmatt-project-2.herokuapp.com/"
             },
             {
+                name: "News Scraper",
+                body: "An app for news, created with Express, Express-Handlebars, MongoDB, Mongoose, and Cheerio. The main goal of the app is to show back-end ability and NoSQL. Front-end design was thrown together quick, just to hold it all together.",
+                code: "https://github.com/BacchusKC/newsScraper",
+                site: "https://bacchus-scraper.herokuapp.com/"
+            },
+            {
                 name: "Burger Maker",
                 body: "Create your burger, and eat it! Showcasing the use of Express, Express-Handlebars, MySQL, Heroku deployment, Model-View-Controller and JawsDB.",
                 code: "https://github.com/BacchusKC/burgerMaker",
