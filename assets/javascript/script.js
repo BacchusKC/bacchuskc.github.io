@@ -87,6 +87,12 @@ $(document).ready(function () {
                 site: "https://bacchus-scraper.herokuapp.com/"
             },
             {
+                name: "Mega Match",
+                body: "A memory game made fully with react. Click on a Robot Masters, but don't click the same one twice! Due to how this game plays, I decided it wouldn't work well on mobile, so I didn't make it responsive. Be Aware!",
+                code: "https://github.com/BacchusKC/MegaMatch",
+                site: "https://bacchuskc.github.io/MegaMatch/"
+            },
+            {
                 name: "Burger Maker",
                 body: "Create your burger, and eat it! Showcasing the use of Express, Express-Handlebars, MySQL, Heroku deployment, Model-View-Controller and JawsDB.",
                 code: "https://github.com/BacchusKC/burgerMaker",
@@ -148,7 +154,7 @@ $(document).ready(function () {
             },
             {
                 name: "Under Construction",
-                body: "Placeholder Text, try the links!",
+                body: "Placeholder text, placeholder links!",
                 code: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                 site: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             }
