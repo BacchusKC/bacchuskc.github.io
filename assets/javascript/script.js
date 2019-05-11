@@ -76,9 +76,21 @@ $(document).ready(function () {
         var projects = [
             {
                 name: "Project Bacchus",
-                body: "A project dedicated to my late dog, Bacchus. An all-in-one app for storing everything about your pets, sharing records and monitoring others that may be in charge of your pet. A gorup project made with React & Next.js with Firebase Auth.",
+                body: "A group project dedicated to my late dog, Bacchus. An all-in-one app for storing everything about your pets, sharing records and monitoring others that may be in charge of your pet. A gorup project made with React & Next.js with Firebase Auth.",
                 code: "https://github.com/csinlasath/CMTT-Project-2",
                 site: "https://cmatt-project-2.herokuapp.com/"
+            },
+            {
+                name: "Diet Gopher",
+                body: "Made with Next.js, an app that lets you find food of a specific diet, and keep track of it all. Log food, plan meals and find great recipes perfect for you.",
+                code: "https://github.com/csinlasath/CMTT-Diet-Gopher",
+                site: "https://cmtt-diet-gopher.herokuapp.com"
+            },
+            {
+                name: "Book It",
+                body: "A React based app that uses Express, MongoDB and Google Books API to search for books, and save choices to a database for access later.",
+                code: "https://github.com/BacchusKC/bookIt",
+                site: "https://book-it-2.herokuapp.com/"
             },
             {
                 name: "News Scraper",
@@ -139,12 +151,6 @@ $(document).ready(function () {
                 body: "One of my favorite apps to develop and one of my first. Guess the video game, hangman style. The reset button on the console resets the game and the start button on the controller starts the game. After winning, the TV changes to an image of the game and theme music is played.",
                 code: "https://github.com/BacchusKC/wordGuessGame",
                 site: "https://bacchuskc.github.io/wordGuessGame/"
-            },
-            {
-                name: "Gif Finder",
-                body: "A very basic gif finder using ajx calls to pull JSON data from Giphy and load up ten gifs at a time. Click on the gifs to start and click again to stop.",
-                code: "https://github.com/BacchusKC/gifFinder",
-                site: "https://bacchuskc.github.io/gifFinder/"
             },
             {
                 name: "Train Scheduler",
